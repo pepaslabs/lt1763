@@ -16,6 +16,8 @@ OSHPark: [link](https://oshpark.com/shared_projects/uVr4yDgz)
 
 The board has provisions for an RLC input filter (see schematic components R4, L1, C3).
 
+![](media/rlc.png)
+
 You can populate these components with whatever values you like.  I used [this RLC calculator](http://sim.okawa-denshi.jp/en/RLCtool.php) to analyze a few component values.
 
 Note: C3 should be a film capacitor, e.g. Kemet R82 ([4.7uF](https://www.digikey.com/product-detail/en/kemet/R82CC4470AA30J/399-6028-ND/2704682), [1uF](https://www.digikey.com/product-detail/en/kemet/R82DC4100AA60J/399-5860-ND/2571295)).
