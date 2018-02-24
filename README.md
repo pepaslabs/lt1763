@@ -12,6 +12,8 @@ Schematic: [pdf](kicad/releases/v1/supply.pdf)
 
 OSHPark: [link](https://oshpark.com/shared_projects/uVr4yDgz)
 
+Gerbers: [zip](kicad/releases/v1/gerbers.zip)
+
 # Input filter
 
 The board has provisions for an RLC input filter (see schematic components R4, L1, C3).
