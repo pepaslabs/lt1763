@@ -22,7 +22,7 @@ You can populate these components with whatever values you like.  I used [this R
 
 Note: C3 should be a film capacitor, e.g. Kemet R82 ([4.7uF](https://www.digikey.com/product-detail/en/kemet/R82CC4470AA30J/399-6028-ND/2704682), [1uF](https://www.digikey.com/product-detail/en/kemet/R82DC4100AA60J/399-5860-ND/2571295)).
 
-Note: L1 should be a small-signal axial type ([470uH](https://www.digikey.com/product-detail/en/bourns-inc/78F471J-RC/M10142-ND/1306000), [100uH](https://www.digikey.com/product-detail/en/bourns-inc/78F101J-RC/M10136-ND/1305994)).
+Note: L1 should be a small-signal axial inductor ([470uH](https://www.digikey.com/product-detail/en/bourns-inc/78F471J-RC/M10142-ND/1306000), [100uH](https://www.digikey.com/product-detail/en/bourns-inc/78F101J-RC/M10136-ND/1305994)).  Note that the 470uH inductor will saturate if more than 90mA is passed.  This board is intended for use with e.g. an LTZ1000 circuit, which only draws about 30mA.
 
 Note: A 10R resistor passing 30mA will add 0.3V of dropout.
 
