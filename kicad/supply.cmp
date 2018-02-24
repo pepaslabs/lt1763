@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sat 24 Feb 2018 08:40:10 AM CST
+
+BeginCmp
+TimeStamp = /5A90A7EF;
+Reference = C1;
+ValeurCmp = 10nF;
+IdModule  = BOXCAP_01_03_02_059A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A90A80E;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = ELCAP_10_20_V_059A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A90A806;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = BOXCAP_02_03_03_059A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A90A879;
+Reference = FB1;
+ValeurCmp = FERRITE_BEAD;
+IdModule  = FERRITE_AXIAL_04_069A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A90A86A;
+Reference = L1;
+ValeurCmp = 100uH;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A90A855;
+Reference = P1;
+ValeurCmp = CONN_2X1;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A90A862;
+Reference = P2;
+ValeurCmp = CONN_2X1;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A90A827;
+Reference = R1;
+ValeurCmp = 33k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A90A83E;
+Reference = R2;
+ValeurCmp = 4.7k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A917885;
+Reference = R3;
+ValeurCmp = 4.7k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A90A892;
+Reference = R4;
+ValeurCmp = 10R;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A90DAF5;
+Reference = U1;
+ValeurCmp = LT1763;
+IdModule  = SO-8;
+EndCmp
+
+EndListe

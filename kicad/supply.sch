@@ -1,0 +1,277 @@
+EESchema Schematic File Version 2
+LIBS:PL_analog_ICs
+LIBS:PL_capacitors
+LIBS:PL_comms
+LIBS:PL_connectors
+LIBS:PL_diodes
+LIBS:PL_displays
+LIBS:PL_GPIB
+LIBS:PL_inductors
+LIBS:PL_LEDs
+LIBS:PL_microcontrollers
+LIBS:PL_mounting_holes
+LIBS:PL_opamps
+LIBS:PL_opto
+LIBS:PL_power
+LIBS:PL_references
+LIBS:PL_regulators
+LIBS:PL_relays
+LIBS:PL_resistors
+LIBS:PL_sensors
+LIBS:PL_switchers
+LIBS:PL_switches
+LIBS:PL_transistors
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "24 feb 2018"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C_FILM C1
+U 1 1 5A90A7EF
+P 6400 3050
+F 0 "C1" H 6420 3110 30  0000 L BNN
+F 1 "10nF" H 6420 2990 30  0000 L TNN
+F 2 "" H 6438 2900 30  0000 C CNN
+F 3 "" H 6400 3050 60  0000 C CNN
+	1    6400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_FILM C3
+U 1 1 5A90A806
+P 5150 3000
+F 0 "C3" H 5170 3060 30  0000 L BNN
+F 1 "1uF" H 5170 2940 30  0000 L TNN
+F 2 "" H 5188 2850 30  0000 C CNN
+F 3 "" H 5150 3000 60  0000 C CNN
+	1    5150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_EL C2
+U 1 1 5A90A80E
+P 7100 3050
+F 0 "C2" H 7120 3110 30  0000 L BNN
+F 1 "10uF" H 7120 2960 30  0000 L TNN
+F 2 "" H 7138 2900 30  0000 C CNN
+F 3 "" H 7100 3050 60  0000 C CNN
+	1    7100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_0W25_1PCT R1
+U 1 1 5A90A827
+P 6750 3100
+F 0 "R1" V 6830 3100 40  0000 C CNN
+F 1 "0R" V 6750 3100 40  0000 C CNN
+F 2 "~" V 6680 3100 30  0000 C CNN
+F 3 "~" H 6750 3100 30  0000 C CNN
+	1    6750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_0W25_1PCT R2
+U 1 1 5A90A83E
+P 6750 3550
+F 0 "R2" V 6830 3550 40  0000 C CNN
+F 1 "33k" V 6750 3550 40  0000 C CNN
+F 2 "~" V 6680 3550 30  0000 C CNN
+F 3 "~" H 6750 3550 30  0000 C CNN
+	1    6750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5A90A846
+P 5800 4550
+F 0 "#PWR01" H 5800 4350 50  0001 C CNN
+F 1 "GND" H 5800 4450 40  0000 C CNN
+F 2 "~" H 5800 4550 50  0000 C CNN
+F 3 "~" H 5800 4550 50  0000 C CNN
+	1    5800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2X1 P1
+U 1 1 5A90A855
+P 2850 2900
+F 0 "P1" V 2850 2900 40  0000 C CNN
+F 1 "CONN_2X1" V 2950 2900 40  0000 C CNN
+F 2 "~" H 2900 2900 60  0000 C CNN
+F 3 "~" H 2900 2900 60  0000 C CNN
+	1    2850 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_2X1 P2
+U 1 1 5A90A862
+P 7700 2900
+F 0 "P2" V 7700 2900 40  0000 C CNN
+F 1 "CONN_2X1" V 7800 2900 40  0000 C CNN
+F 2 "~" H 7750 2900 60  0000 C CNN
+F 3 "~" H 7750 2900 60  0000 C CNN
+	1    7700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 5A90A86A
+P 4700 2850
+F 0 "L1" H 4700 2975 40  0000 C CNN
+F 1 "100uH" H 4700 2750 40  0000 C CNN
+F 2 "~" H 4700 2850 60  0000 C CNN
+F 3 "~" H 4700 2850 60  0000 C CNN
+	1    4700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L FERRITE_BEAD FB1
+U 1 1 5A90A879
+P 3500 2850
+F 0 "FB1" H 3500 2975 40  0000 C CNN
+F 1 "FERRITE_BEAD" H 3500 2750 40  0000 C CNN
+F 2 "~" H 3500 2850 60  0000 C CNN
+F 3 "~" H 3500 2850 60  0000 C CNN
+	1    3500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_0W25 R4
+U 1 1 5A90A892
+P 4100 2850
+F 0 "R4" V 4180 2850 40  0000 C CNN
+F 1 "10R" V 4100 2850 40  0000 C CNN
+F 2 "~" V 4030 2850 30  0000 C CNN
+F 3 "~" H 4100 2850 30  0000 C CNN
+	1    4100 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 2850 5350 2850
+Connection ~ 5150 2850
+Wire Wire Line
+	4300 2850 4400 2850
+Wire Wire Line
+	3800 2850 3900 2850
+Wire Wire Line
+	3050 2850 3200 2850
+Wire Wire Line
+	7500 2950 7400 2950
+Wire Wire Line
+	3050 2950 3150 2950
+Text Notes 6700 2750 0    60   ~ 0
+9.8V
+$Comp
+L LT1763 U1
+U 1 1 5A90DAF5
+P 5800 3100
+F 0 "U1" H 5450 3450 40  0000 L BNN
+F 1 "LT1763" H 6150 2750 40  0000 R TNN
+F 2 "" H 5800 3250 60  0000 C CNN
+F 3 "" H 5800 3250 60  0000 C CNN
+	1    5800 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2850 5350 3100
+Wire Wire Line
+	6250 2850 7500 2850
+Wire Wire Line
+	6400 2850 6400 2900
+Wire Wire Line
+	6400 3200 6400 3250
+Wire Wire Line
+	6400 3250 6250 3250
+Connection ~ 6400 2850
+Wire Wire Line
+	6750 2900 6750 2850
+Connection ~ 6750 2850
+Wire Wire Line
+	7100 2900 7100 2850
+Connection ~ 7100 2850
+Wire Wire Line
+	5700 3500 5900 3500
+Connection ~ 5800 3500
+$Comp
+L R_0W25_1PCT R3
+U 1 1 5A917885
+P 6750 4050
+F 0 "R3" V 6830 4050 40  0000 C CNN
+F 1 "4.7k" V 6750 4050 40  0000 C CNN
+F 2 "~" V 6680 4050 30  0000 C CNN
+F 3 "~" H 6750 4050 30  0000 C CNN
+	1    6750 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4250 6750 4450
+Wire Wire Line
+	3150 4450 7400 4450
+Wire Wire Line
+	5800 3500 5800 4550
+Connection ~ 5800 4450
+Wire Wire Line
+	7100 4450 7100 3200
+Connection ~ 6750 4450
+Wire Wire Line
+	7400 4450 7400 2950
+Connection ~ 7100 4450
+Wire Wire Line
+	5150 3150 5150 4450
+Wire Wire Line
+	3150 2950 3150 4450
+Connection ~ 5150 4450
+Wire Wire Line
+	6750 3300 6750 3350
+Wire Wire Line
+	6750 3750 6750 3850
+Wire Wire Line
+	6250 3350 6400 3350
+Wire Wire Line
+	6400 3350 6400 3800
+Wire Wire Line
+	6400 3800 6750 3800
+Connection ~ 6750 3800
+$EndSCHEMATC
